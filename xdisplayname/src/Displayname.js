@@ -39,7 +39,7 @@ const Displayname = () => {
                 <br /><br />
                 <button type="submit">Submit</button>
             </form>
-            <br /><br />
+            
             {fullName && <div className="full-name">Full Name: {fullName}</div>}
         </div>
     );
